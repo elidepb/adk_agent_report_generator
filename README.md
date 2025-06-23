@@ -36,7 +36,7 @@ The system's architecture is a collaborative network of specialized agents, orch
 
 The agent operates in a clear, multi-phase process that prioritizes user alignment before autonomous execution. This ensures the final output is precisely what the user envisioned, moving from high-level planning to detailed creation and final delivery.
 
-![Agent Workflow](resources/diagrams/workflow.png)
+![Agent Workflow](report_agent/resources/diagrams/workflow.png)
 
 ---
 
@@ -44,7 +44,7 @@ The agent operates in a clear, multi-phase process that prioritizes user alignme
 
 This diagram provides a conceptual look into the agent's "internal monologue," showing the decisions and delegations it makes at each step. It illustrates how the different specialized agents are called upon to contribute to the final goal.
 
-![How the Agent Thinks](resources/diagrams/how_the_agent_think.png)
+![How the Agent Thinks](report_agent/resources/diagrams/how_the_agent_think.png)
 
 ---
 
@@ -52,7 +52,7 @@ This diagram provides a conceptual look into the agent's "internal monologue," s
 
 For a more technical view, the sequence diagram below details the precise order of API calls and interactions between each component of the system, from the initial user request to the final delivery of all potential artifacts.
 
-![Sequence Diagram](resources/diagrams/sequences.png)
+![Sequence Diagram](report_agent/resources/diagrams/sequences.png)
 
 ---
 
@@ -60,7 +60,7 @@ For a more technical view, the sequence diagram below details the precise order 
 
 The agent is designed for scalable and efficient deployment on Google Cloud. Each agent can be deployed as an independent microservice on Cloud Run, invoking Vertex AI for its powerful generative capabilities and using the Google Search API as its primary tool for information gathering.
 
-![Deployment Architecture](resources/diagrams/deploy.png)
+![Deployment Architecture](report_agent/resources/diagrams/deploy.png)
 
 ---
 
