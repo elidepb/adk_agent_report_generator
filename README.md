@@ -28,7 +28,7 @@ This agent goes beyond simple writing. It can **analyze and replicate your writi
 
 The system's architecture is a collaborative network of specialized agents, orchestrated by a central `Coordinator`. This design allows for a clear separation of concerns, where each agent is an expert in its specific domain, leading to a more robust and capable system.
 
-![Agent Architecture](resources/diagrams/architecture.png)
+![Agent Architecture](report_agent/resources/diagrams/architecture.png)
 
 ---
 
