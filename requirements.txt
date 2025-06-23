@@ -1,0 +1,3 @@
+google-adk
+fpdf
+markdown2
